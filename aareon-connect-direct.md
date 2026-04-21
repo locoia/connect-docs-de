@@ -64,7 +64,9 @@ Legen Sie nach der Keycloak-Umstellung den API-Benutzer an.
 * Partnerspezifische Benutzerrolle zuweisen
 
 {% hint style="info" %}
-Die Benutzerrolle richten Sie in Yuneo unter **Benutzerrollen** ein. Danach weisen Sie die Rolle dem Yuneo-Benutzer zu. Informieren Sie uns per E-Mail, sobald der Benutzer angelegt ist.
+Die Benutzerrolle richten Sie in Yuneo unter **„Benutzerrollen“** ein. Anschließend weisen Sie diese Rolle dem entsprechenden Yuneo-Benutzer zu.
+
+Sobald der Benutzer angelegt wurde, informieren Sie uns bitte per E-Mail. Eine kurze Nachricht an **connect@aareon-dach.zendesk.com** mit dem Benutzernamen sowie dem Hinweis, dass der Benutzer erfolgreich erstellt wurde, ist hierfür ausreichend.
 {% endhint %}
 {% endstep %}
 
