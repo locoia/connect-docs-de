@@ -101,8 +101,8 @@ Die Zugangsdaten werden anschließend an den jeweiligen Partner übermittelt.
 
 Die Anbindung ist abgeschlossen, wenn diese Punkte erfüllt sind:
 
-* [ ] Keycloak ist aktiviert.
-* [ ] Der API-Benutzer ist je Partner angelegt.
-* [ ] Das Backend ist durch Aareon konfiguriert.
-* [ ] Die Zugangsdaten wurden bereitgestellt.
+* Keycloak ist aktiviert.
+* Der API-Benutzer ist je Partner angelegt.
+* Das Backend ist durch Aareon konfiguriert.
+* Die Zugangsdaten wurden bereitgestellt.
 
