@@ -7,90 +7,102 @@ description: >-
 
 # Aareon Connect Direct
 
-### Überblick
+## Überblick
 
-Der Onboarding-Prozess besteht aus vier Schritten:
+Aareon Connect Direct ermöglicht Partnern einen sicheren API-Zugriff auf ERP-Daten.
 
-1. Umstellung auf Keycloak (Authentifizierung)
-2. Erstellung von API-Benutzern
-3. Backend-Konfiguration durch Yuneo
-4. Bereitstellung der API-Zugangsdaten
+Das Onboarding umfasst vier Schritte:
 
-### 1. Umstellung auf Keycloak (Verantwortlich: Kunde / Aareon)
+1. Keycloak aktivieren
+2. API-Benutzer anlegen
+3. Backend konfigurieren
+4. Zugangsdaten bereitstellen
 
-Die Nutzung von Yuneo Connect Direct setzt zwingend die Verwendung von **Keycloak** voraus.
+{% hint style="info" %}
+Pro Partner wird ein eigener API-Benutzer benötigt.
+{% endhint %}
+
+### Ablauf
+
+{% stepper %}
+{% step %}
+### 1. Keycloak aktivieren
+
+**Verantwortlich:** Kunde / Aareon
+
+Die Nutzung von Aareon Connect Direct setzt **Keycloak** voraus.
 
 #### SaaS-Kunden
 
-* Umstellung erfolgt eigenständig im System
-* Navigation: _Optionen → Allgemein → Multifaktorauthentifizierung_
-* Vorlaufzeit: ca. 14 Tage
-* Detaillierte Informationen finden Sie außerdem in unserem HelpCenter unter dem Stichwort Keycloak.
-* Die Umstellung kann bei Bedarf bereits vor Vertragsunterzeichnung durchgeführt werden, um Zeit zu sparen.
+* Die Umstellung erfolgt direkt im System.
+* Navigation: **Optionen → Allgemein → Multifaktorauthentifizierung**
+* Planen Sie etwa 14 Tage Vorlauf ein.
+* Die Umstellung kann auch vor Vertragsunterzeichnung erfolgen.
 
-#### On-Premise (In-House) Kunden
+#### On-Premise-Kunden
 
-* Die Umstellung muss durch die Aareon IT-Infrastruktur bzw. Aareon Consultants durchgeführt werden.
-* Bitte erstellen Sie hierfür ein Zendesk-Ticket mit Adressierung an IT Infrastruktur und folgendem Inhalt:
+* Die Umstellung erfolgt durch Aareon IT Infrastruktur oder Aareon Consultants.
+* Erstellen Sie dafür ein Zendesk-Ticket an **IT Infrastruktur**.
 
-„_Bitte um Umstellung auf das aktuelle Keycloak-Authentifizierungsverfahren für unser In-House-System. Die Umstellung ist Voraussetzung für die Connect Direct Anbindung an PLATZHALTER._“
+Verwenden Sie dabei diesen Text:
 
+> Bitte um Umstellung auf das aktuelle Keycloak-Authentifizierungsverfahren für unser In-House-System. Die Umstellung ist Voraussetzung für die Connect Direct Anbindung an **\[Partnername]**.
+{% endstep %}
 
+{% step %}
+### 2. API-Benutzer anlegen
 
-### 2. Erstellung von API-Benutzern (Verantwortlich: Kunde)
+**Verantwortlich:** Kunde
 
-Nach erfolgreicher Keycloak-Umstellung müssen API-Benutzer angelegt werden.
-
-#### Grundprinzip
-
-* Pro Partner wird **ein eigener Benutzer** benötigt
+Legen Sie nach der Keycloak-Umstellung den API-Benutzer an.
 
 #### Benutzerdaten
 
 * Benutzername / E-Mail: `svc_<partner_name>@aareon.com`
 * Nachname: Partnername
-* Option „Alle Mandanten“: aktivieren
-* Benutzerrolle: partnerspezifische Rolle zuweisen
+* Option **Alle Mandanten** aktivieren
+* Partnerspezifische Benutzerrolle zuweisen
 
-> Hinweis: Die Benutzerrollen lassen sich in Yuneo unter „Benutzerrollen“ einrichten und können anschließend dem Yuneo Benutzer zugeteilt werden. Bitte teilen Sie uns per Mail mit, sobald der Nutzer erstellt ist.
+{% hint style="info" %}
+Die Benutzerrolle richten Sie in Yuneo unter **Benutzerrollen** ein. Danach weisen Sie die Rolle dem Yuneo-Benutzer zu. Informieren Sie uns per E-Mail, sobald der Benutzer angelegt ist.
+{% endhint %}
+{% endstep %}
 
-### 3. Backend-Konfiguration (Yuneo) (Verantwortlich: Aareon / Yuneo)
+{% step %}
+### 3. Backend konfigurieren
 
-Dieser Schritt erfolgt vollständig durch Yuneo (Aareon).
+**Verantwortlich:** Aareon / Yuneo
 
-* Einrichtung im API Gateway (Kong)
+Dieser Schritt erfolgt vollständig durch Aareon.
+
+* Einrichtung im API Gateway
 * Verknüpfung von Kunde, Benutzer und Partner
 
-**Keine Aktion durch den Kunden erforderlich, wenn Schritte 1 + 2 vollständig erledigt wurden.**
+Wenn Schritt 1 und 2 abgeschlossen sind, ist hier keine Aktion des Kunden nötig.
+{% endstep %}
 
+{% step %}
+### 4. Zugangsdaten bereitstellen
 
+**Verantwortlich:** Aareon
 
-### 4. Bereitstellung der Zugangsdaten (Verantwortlich: Aareon)
+Nach Abschluss aller Schritte erstellt Aareon die API-Zugangsdaten je Kunde und Partner.
 
-Nach Abschluss aller Schritte:
+Die Zugangsdaten werden anschließend an den jeweiligen Partner übermittelt.
 
-* Erstellung von API-Zugangsdaten pro Kunde/Partner
-* Bereitstellung an den jeweiligen Partner durch Aareon
+#### Wichtig
 
-#### Hinweise
+* Verwenden Sie exakt die E-Mail-Adresse aus Schritt 2.
+* Übermitteln Sie Zugangsdaten nur auf sicherem Weg.
+{% endstep %}
+{% endstepper %}
 
-* Wichtig ist, dass der Benutzer genau die E-Mail-Adresse verwendet, wie in Schritt 2 angegeben.
-* Sichere Weitergabe erforderlich
+### Checkliste
 
-***
+Die Anbindung ist abgeschlossen, wenn diese Punkte erfüllt sind:
 
-### Zusammenfassung
-
-Für die erfolgreiche Anbindung sind folgende Schritte erforderlich:
-
-1. Keycloak aktivieren
-2. API-Benutzer je Partner anlegen
-3. Yuneo konfiguriert das Backend
-4. API-Zugangsdaten werden bereitgestellt
-
-
-
-
-
-
+* [ ] Keycloak ist aktiviert.
+* [ ] Der API-Benutzer ist je Partner angelegt.
+* [ ] Das Backend ist durch Aareon konfiguriert.
+* [ ] Die Zugangsdaten wurden bereitgestellt.
 
