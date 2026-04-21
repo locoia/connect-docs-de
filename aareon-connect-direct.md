@@ -1,15 +1,14 @@
 ---
 description: >-
-  Diese Dokumentation beschreibt den Prozess zur Anbindung eines ERP-Kunden an
-  einen Partner über Yuneo Connect Direct. Ziel ist es, Partnern einen sicheren
-  API-Zugriff auf ERP-Daten bereitzustellen.
+  Diese Dokumentation zeigt Ihnen wie Sie als Connect Direct-Kunde Ihr Yuneo an
+  an einen unserer Connect-Partner Anbinden können.
 ---
 
 # Aareon Connect Direct
 
 ## Überblick
 
-Aareon Connect Direct ermöglicht Partnern einen sicheren API-Zugriff auf ERP-Daten.
+Connect Direct ermöglicht Partnern einen sicheren API-Zugriff auf Yuneo-Daten.
 
 Das Onboarding umfasst vier Schritte:
 
@@ -30,7 +29,7 @@ Pro Partner wird ein eigener API-Benutzer benötigt.
 
 **Verantwortlich:** Kunde / Aareon
 
-Die Nutzung von Aareon Connect Direct setzt **Keycloak** voraus.
+Die Nutzung von Aareon Connect Direct setzt **Keycloak** voraus.&#x20;
 
 #### SaaS-Kunden
 
@@ -50,6 +49,16 @@ Verwenden Sie dabei diesen Text:
 {% endstep %}
 
 {% step %}
+
+{% endstep %}
+
+{% step %}
+{% hint style="info" %}
+Keycloak ist eine zentrale Authentifizierungs- und Autorisierungslösung, die von Aareon eingesetzt wird. Sie ermöglicht eine sichere Anmeldung (z. B. über OAuth2/OpenID Connect) und bildet die Grundlage für den API-Zugriff bei Aareon Connect Direct.
+
+Die Nutzung von Aareon Connect Direct setzt Keycloak zwingend voraus. **Alle Kunden (SaaS und On-Premise) müssen Keycloak aktivieren**, bevor die Anbindung erfolgen kann.
+{% endhint %}
+
 ### 2. API-Benutzer anlegen
 
 **Verantwortlich:** Kunde
