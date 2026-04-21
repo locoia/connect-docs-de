@@ -96,6 +96,7 @@
   * [Valuation & Pricing](kategorien/valuation-and-pricing.md)
   * [Vermögensverwaltung](kategorien/vermoegensverwaltung.md)
   * [Zugangsmanagement](kategorien/zugangsmanagement.md)
+* [Aareon Connect Direct](aareon-connect-direct.md)
 * [FAQ](faq.md)
 * [Dokumentation Bearbeiten und Ergänzen](dokumentation-bearbeiten-und-erganzen.md)
 
