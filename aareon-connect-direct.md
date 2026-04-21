@@ -33,7 +33,7 @@ Die Nutzung von Aareon Connect Direct setzt **Keycloak** voraus.&#x20;
 
 #### SaaS-Kunden
 
-* Die Umstellung erfolgt direkt im System.
+* Die Umstellung erfolgt durch den Kunden selbst direkt im System.
 * Navigation: **Optionen → Allgemein → Multifaktorauthentifizierung**
 * Planen Sie etwa 14 Tage Vorlauf ein.
 * Die Umstellung kann auch vor Vertragsunterzeichnung erfolgen.
@@ -46,27 +46,24 @@ Die Nutzung von Aareon Connect Direct setzt **Keycloak** voraus.&#x20;
 Verwenden Sie dabei diesen Text:
 
 > Bitte um Umstellung auf das aktuelle Keycloak-Authentifizierungsverfahren für unser In-House-System. Die Umstellung ist Voraussetzung für die Connect Direct Anbindung an **\[Partnername]**.
-{% endstep %}
 
-{% step %}
-
-{% endstep %}
-
-{% step %}
 {% hint style="info" %}
 Keycloak ist eine zentrale Authentifizierungs- und Autorisierungslösung, die von Aareon eingesetzt wird. Sie ermöglicht eine sichere Anmeldung (z. B. über OAuth2/OpenID Connect) und bildet die Grundlage für den API-Zugriff bei Aareon Connect Direct.
 
 Die Nutzung von Aareon Connect Direct setzt Keycloak zwingend voraus. **Alle Kunden (SaaS und On-Premise) müssen Keycloak aktivieren**, bevor die Anbindung erfolgen kann.
 {% endhint %}
+{% endstep %}
 
-### 2. API-Benutzer anlegen
+{% step %}
+### 2. Yuneo-Benutzer für Schnittstelle anlegen
 
 **Verantwortlich:** Kunde
 
-Legen Sie nach der Keycloak-Umstellung den API-Benutzer an.
+Der Kunde legt nach der Keycloak-Umstellung einen Yuneo Benutzer an, welcher für den Zugriff auf die API genutzt werden kann. Folgende Schritte müssen genau befolgt werden:
 
 #### Benutzerdaten
 
+* Neuen Benutzer hinzufügen
 * Benutzername / E-Mail: `svc_<partner_name>@aareon.com`
 * Nachname: Partnername
 * Option **Alle Mandanten** aktivieren
@@ -84,8 +81,7 @@ Sobald der Benutzer angelegt wurde, informieren Sie uns bitte per E-Mail. Eine k
 
 **Verantwortlich:** Aareon / Yuneo
 
-Dieser Schritt erfolgt vollständig durch Aareon.
-
+* Dieser Schritt erfolgt vollständig durch Aareon, nachdem Sie Schritt 2 erledigt haben.
 * Einrichtung im API Gateway
 * Verknüpfung von Kunde, Benutzer und Partner
 
@@ -100,11 +96,6 @@ Wenn Schritt 1 und 2 abgeschlossen sind, ist hier keine Aktion des Kunden nötig
 Nach Abschluss aller Schritte erstellt Aareon die API-Zugangsdaten je Kunde und Partner.
 
 Die Zugangsdaten werden anschließend an den jeweiligen Partner übermittelt.
-
-#### Wichtig
-
-* Verwenden Sie exakt die E-Mail-Adresse aus Schritt 2.
-* Übermitteln Sie Zugangsdaten nur auf sicherem Weg.
 {% endstep %}
 {% endstepper %}
 
