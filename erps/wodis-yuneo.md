@@ -173,6 +173,87 @@ Sobald:
 
 vollständig vorliegen, kann die Dokumentenschnittstelle aktiviert werden.
 
+### Abschluss der Einrichtung / Rückmeldung an Aareon Connect
+
+#### Abschluss der Einrichtung
+
+Nach Durchführung aller oben beschriebenen Schritte benötigen wir einige Informationen von Ihnen, um die Dokumentenschnittstelle vollständig einrichten zu können.
+
+Bitte antworten Sie hierzu auf das von uns eröffnete Zendesk-Ticket und übermitteln Sie die folgenden Informationen.
+
+### Benötigte Zugangsdaten und Informationen
+
+Bitte senden Sie uns:
+
+#### 1. Zugangsdaten des angelegten Benutzers
+
+Bitte übermitteln Sie:
+
+* **Benutzername**
+* **Passwort**
+
+Hinweis:\
+Bitte melden Sie sich einmal mit dem Benutzer in Wodis Sigma an und ändern Sie das Passwort, bevor Sie uns die Zugangsdaten zusenden.
+
+Andernfalls schlägt die Anmeldung über Aareon Connect fehl.
+
+#### 2. Kennung aus dem Archiv-Manager
+
+Navigieren Sie zu: <kbd>**Archiv-Manager > Systeme > Einstellungen > Allgemein**</kbd>
+
+<img src="../.gitbook/assets/unknown.png" alt="" height="396" width="561">
+
+Bitte übermitteln Sie uns die:
+
+* **Kennung**
+
+#### 3. Cert-ID aus dem Archiv-Manager (nur bei SaaS Kunden)
+
+Navigieren Sie zu: <kbd>**Archiv-Manager > System > Einstellungen > Dienste**</kbd>&#x20;
+
+<img src="../.gitbook/assets/unknown (1).png" alt="" height="128" width="624">
+
+Bitte übermitteln Sie uns die:
+
+* **Cert-ID**
+
+Hinweis: Bei On-Premise Installationen ist keine Cert-ID vorhanden.
+
+#### 4. Externe AAK-ID (nur bei On-Premise Installationen)
+
+Falls Sie eine On-Premise / InHouse Umgebung verwenden, benötigen wir zusätzlich:
+
+* Externe AAK-ID / extern erreichbare Server-ID
+
+Diese wird benötigt, damit der Zugriff auf den AAK-Server eingerichtet werden kann.
+
+#### 5. Formular für Archiv-Filter ausfüllen
+
+Bitte füllen Sie wenn nicht schon übermittelt das Formular für die Archivfilter vollständig aus:
+
+[Formular für Archivfilter](https://ivlv.me/QpPEO)
+
+Über das Formular erfassen wir:
+
+* Mieter-Archive
+* Eigentümer-Archive
+* Schlagwort-Filter
+* Weitere Veröffentlichungsregeln
+
+## Rückmeldung über Zendesk-Ticket
+
+Bitte senden Sie alle Informationen ausschließlich über das von uns bereitgestellte Zendesk-Ticket zurück.
+
+Sobald:
+
+* Zugangsdaten,
+* Kennung,
+* Cert-ID (nur SaaS Kunden),
+* Externe AAK-ID (nur On-Premise Kunden),
+* sowie das Formular
+
+vollständig vorliegen, kann die Dokumentenschnittstelle aktiviert werden.
+
 ### Protocols
 
 Über den Use Case Protocols können Dokumente vom Partnersystem in Archiv kompakt übertragen werden. Bei der Übertragung des Dokumentes muss angegeben werden, in welches Archiv das Dokument abgelegt werden soll. Die Dokumente werden automatisch verschlagwortet. Dazu ist eine Einrichtung in Yuneo notwendig, damit das System die Indexwerte aus dem jeweiligen Stammdaten in Yuneo zuordnen kann.
