@@ -32,8 +32,7 @@ Nachdem Sie den Aareon Connect Vertrag unterschrieben haben muss die Lizenz noch
 
     **Benutzer – Applikation**
 14. Wählen Sie jeweils die Benutzer aus, die Zugang erhalten sollen
-15. Verschieben Sie das Modul **Integrations Platform as a Service** mit dem Einzelpfeil von links nach rechts\
-
+15. Verschieben Sie das Modul **Integrations Platform as a Service** mit dem Einzelpfeil von links nach rechts<br>
 
     <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 

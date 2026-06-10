@@ -24,8 +24,7 @@ Die Schritte und möglichen Einstellungen sind dabei auch in diesem Video zusamm
        <figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4. Klicken Sie auf **Autorisieren**
    1. Die Nutzerdaten werden direkt überprüft und bei falschen Informationen erhalten Sie eine Meldung mit weiteren Informationen
-5.  _Optional:_ Suchen Sie nach dem DocuSign Account Namen den Sie verwenden wollen und suchen Sie den passenden Namen aus der Liste aus. Wenn Sie das Feld leer lassen wir der Standard Account verwendet.\
-
+5.  _Optional:_ Suchen Sie nach dem DocuSign Account Namen den Sie verwenden wollen und suchen Sie den passenden Namen aus der Liste aus. Wenn Sie das Feld leer lassen wir der Standard Account verwendet.<br>
 
     <figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 6. Sie können weitere Einstellungen vornehmen:
@@ -99,8 +98,7 @@ Die Marken ID finden Sie hier in DocuSign:
 
 Wenn Sie für bestimmte Unterzeichner aus dem ERP System eine Signiergruppe benutzen wollen, müssen Sie beide Felder ausfüllen:
 
-*   **Signiergruppen-ID**: Diese finden Sie in den DocuSign Einstellungen unter **Benutzer und Gruppen** > **Signiergruppen** > **Signiergruppen-ID**\
-
+*   **Signiergruppen-ID**: Diese finden Sie in den DocuSign Einstellungen unter **Benutzer und Gruppen** > **Signiergruppen** > **Signiergruppen-ID**<br>
 
     <figure><img src="../../../.gitbook/assets/Screenshot 2024-09-13 at 17.42.12.png" alt=""><figcaption></figcaption></figure>
 * **Signiergruppe - E-Mail Domain Filter**: E-Mail Domain als Filter für die Signiergruppe. Nur Unterzeichner mit dieser E-Mail Domain werden durch die Signiergruppe ersetzt, alle anderen Unterzeichner werden wie im ERP System definiert zu dem Umschlag hinzugefügt.

@@ -11,8 +11,7 @@ Lesen Sie wie [hier beschrieben](../../../erps/wodis-sigma.md#aareon-connect-in-
 Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](../technologie-partner/scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktiviert haben, muss zuletzt die Verknüpfung zwischen WODIS Sigma und Aareon Connect eingerichtet werden.
 
 1. Gehen Sie auf **Zentrale Funktionen** > **Aktivitätenmanagement** > **Stammdaten** > **Aktivitätenmanagement Einstellungen**
-2.  Tragen Sie für das Feld **Digitale Signatur Logins** den Wert **Scrive** in die Spalte **Benutzerwert** ein\
-
+2.  Tragen Sie für das Feld **Digitale Signatur Logins** den Wert **Scrive** in die Spalte **Benutzerwert** ein<br>
 
     <figure><img src="../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 3. Somit erscheinen die benötigten Felder

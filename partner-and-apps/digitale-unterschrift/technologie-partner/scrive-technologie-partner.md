@@ -168,8 +168,7 @@ Mehr Details zu [#qualifizierte-elektronische-unterschrift](../#qualifizierte-el
 Der Ablauf von QES unterscheidet sich je nachdem, ob QES das erste Mal von den jeweiligen Unterzeichnern genutzt wird oder dieser bereits registriert ist. Die ersten Prozessschritte sind allerdings in beiden Fällen identisch
 
 1. Alle Unterzeichner erhalten eine reguläre E-Mail zum Unterzeichnen
-2.  Auf der Seite zum Unterschreiben wird nach der Mobilnummer des Unterzeichners gefragt:\
-
+2.  Auf der Seite zum Unterschreiben wird nach der Mobilnummer des Unterzeichners gefragt:<br>
 
     <figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -178,8 +177,7 @@ Der Ablauf von QES unterscheidet sich je nachdem, ob QES das erste Mal von den j
 
 #### Initiale Nutzung von QES inklusive Registrierung (QES mit SRS)
 
-4.  Der Unterzeichner erhält die Möglichkeit sich entweder via Video-Identifikation oder Persönlich auszuweisen:\
-
+4.  Der Unterzeichner erhält die Möglichkeit sich entweder via Video-Identifikation oder Persönlich auszuweisen:<br>
 
     <figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -289,8 +287,7 @@ Hier können Sie den Signaturverlauf, von im ERP gestarteten Vorgängen, samt Ze
 
 1. Gehen Sie dafür auf [**Flow** > **Vorgänge gestartet**](https://scrive.com/new/flow/started-processes)
 2. Klicken Sie auf den jeweiligen Vorgang (diese könen Sie nach Status filtern)
-3.  Unter **Event log** ist der Signaturverlauf im Detail aufgeführt:\
-
+3.  Unter **Event log** ist der Signaturverlauf im Detail aufgeführt:<br>
 
     <figure><img src="../../../.gitbook/assets/Arc 2025-04-02 11.15.41.png" alt=""><figcaption></figcaption></figure>
 

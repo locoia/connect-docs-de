@@ -17,8 +17,7 @@ Verbindung zu Scrive wurde über Aareon Connect hergestellt
 
 Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](../technologie-partner/scrive-technologie-partner.md#aktivierung-in-aareon-connect "mention") beschrieben aktiviert haben muss zuletzt die Verknüpfung zwischen WODIS Yuneo und Aareon Connect eingerichtet werden.
 
-1.  Gehen Sie auf **Systemeinrichtung** > **Optionen** > **Optionen Allgemein** > **Digitale Unterschrift**\
-
+1.  Gehen Sie auf **Systemeinrichtung** > **Optionen** > **Optionen Allgemein** > **Digitale Unterschrift**<br>
 
     <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXc5HodqMSsSWfA_eB5XH05FTGrtun6LYv-JG0s6BNPrqOtyJV8xM96TgPDN5QTwA-Ko03pIah_AxP7t1Y1Cqx5r8gFOcKjLT3JT7frYVB4abT_P-TgIHHBEBZLl9ppch1GIHuBuLQI1NGizkCY9_gE?key=8asTqBcXRFcgrm0oY7urdZPd" alt=""><figcaption></figcaption></figure>
 2. Setzen Sie **Digitale Unterschrift** auf **Konfigurieren**
@@ -35,13 +34,11 @@ Nachdem Sie die Digitale Unterschrift wie in [#aktivierung-in-aareon-connect](..
 
 Nun müssen noch die passenden Arbeitsaufträge angelegt werden:
 
-1.  Gehen Sie auf **Systemeinrichtung** > **Organisation und Datenmanagement** > **Planung Arbeitsaufträge**\
-
+1.  Gehen Sie auf **Systemeinrichtung** > **Organisation und Datenmanagement** > **Planung Arbeitsaufträge**<br>
 
     <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXc-lfff8owMA0C_S7HbCq7sAGkSnhfQni_hkYCVhMt5-8F3gHwFBOv3y4j4lQ7wJPF6HJhrOnwPaiAINATtwc13Um9c2VLrT4zYBdWKwRlGnjcYiWkn4VQzcAyToKPTkWolQk4bMkCBUhoR26RfqHc?key=8asTqBcXRFcgrm0oY7urdZPd" alt=""><figcaption></figcaption></figure>
 2. Klicken Sie oben links auf **Neu anlegen**
-3.  Suchen Sie im **Typ** Feld nach **Digitale Unterschrift - Dokumente versenden**\
-
+3.  Suchen Sie im **Typ** Feld nach **Digitale Unterschrift - Dokumente versenden**<br>
 
     <figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 4. Geben Sie dem Arbeitsauftrag einen Namen
@@ -99,8 +96,7 @@ Bei dem Schriftverkehr Erstellungs-Prozess müssen Sie dafür folgende Dinge bea
 1. Sie können nur Dokumentvorlagen verwenden, welche Sie wie in [#einmalige-einrichtung-je-dokumentvorlage](wodis-yuneo.md#einmalige-einrichtung-je-dokumentvorlage "mention") beschrieben eingerichtet haben
 2. Bei der Schriftverkehrs-Aktivität in der Sektion **Aktivität - Allgemein** folgende Einstellungen vornehmen:
    1. Systemtyp: Aufgabe
-   2.  Aktivitätstyp: Digital Unterschreiben\
-
+   2.  Aktivitätstyp: Digital Unterschreiben<br>
 
        <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXeq_Qli9lQDkjYA7hk-MyaI8l_CFEodcsNQkU8o5o3Y__UiVCaM7OQz4Ftq8n0u16e2DSWFFNqji_vC8QNG7iexwgwYARwpqBUFW_mqxbehaxkDZgiazR553t2NiU7wHp2EodXhgyhSoLB7oI5N7uY?key=8asTqBcXRFcgrm0oY7urdZPd" alt=""><figcaption></figcaption></figure>
    3.  Die weiteren Felder können Sie individuell ausfüllen
@@ -192,4 +188,4 @@ Bei Störungen können Sie unter Arbeitsaufträge genauere Informationen über d
 
 <figure><img src="https://lh7-qw.googleusercontent.com/docsz/AD_4nXfBXOBT0wTtkLoFzhrX5T43DZR-eM1QCaZvEXfIuSpIFt7fFBSnF-K5i1qowaV4LSvtjqlDlD1idbIcS4_6AvwfNOf3MHmUyg1bEatmUVA0eVOufla4tTjE4afNI4k6F0BwtcLNx6sZoT0rNnplGME?key=8asTqBcXRFcgrm0oY7urdZPd" alt=""><figcaption><p>Versandprotokolle</p></figcaption></figure>
 
-\
+<br>

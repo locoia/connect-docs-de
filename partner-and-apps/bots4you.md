@@ -116,13 +116,11 @@ Tickets die im ERP erstellt wurden, werden nicht an Bots4You übertragen.
 
 
 **Wo stehen die Server?**\
-Europa, DSGVO-Konform.\
-
+Europa, DSGVO-Konform.<br>
 
 **Wie sind die Authentifizierungsmöglichkeiten?**
 
-Klassische Authentifizierung über Mietvertragsnummer sowie andere gewünschte Parameter (individuell einstellbar). \
-
+Klassische Authentifizierung über Mietvertragsnummer sowie andere gewünschte Parameter (individuell einstellbar). <br>
 
 **Wie kann ich eine Telefonanlage für den VoiceBot verbinden?**
 
@@ -152,8 +150,7 @@ Es wird im Standard nur transkribiert.
 **Kann ein Telefonanlage schon vorab Anrufer authentifizieren und diese Identifizierung weitergeben an den Voicebot?**
 
 Ja, der einfachste Weg ist, wenn die Telefonanlage an den Voicebot anruft und dabei in Abhängigkeit des Authentifizierungsstatus die Rufnummer in der Weiterleitung mitschickt, wenn der Anrufer nicht authentifiziert ist und die Mietvertragsnummer, wenn der Anrufer authentifiziert ist.\
-\
-
+<br>
 
 **Verlängert sich die Dauer eines Telefonast des Voicebots, wenn dieser den Mieter identifizieren soll?**\
 Ja, die Identifizierung kostet einige Sekunden.
