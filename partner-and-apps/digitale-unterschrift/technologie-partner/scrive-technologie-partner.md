@@ -77,7 +77,7 @@ Erweitertes Branding (white labeling) beinhaltet die folgenden zusätzlichen Opt
 2. **SMS-Absendername** mit Ihrem Firmenname: Der Name, der dem Empfänger beim Empfang einer SMS angezeigt wird. Maximal 11 alphanumerische Zeichen.
 3. **E-Mail-Absendername** mit Ihrem Firmennamen: Der Firmenname, der dem Empfänger beim Empfang von E-Mails angezeigt kann geändert werden.\
    Beispiel: Ändert die Zeichenfolge "Max Müller über Scrive" in > "Max Müller über {Firmenname}"\
-   &#xNAN;_&#x48;inweis_: Die E-Mail Adresse selber kann nicht geändert werden.
+   _&#x48;inweis_: Die E-Mail Adresse selber kann nicht geändert werden.
 
 {% hint style="info" %}
 {Firmenname} wird bei erweitertem Branding durch Ihren individuellen Namen ersetzt. Im Basis-Branding würde dort immer Scrive stehen, der Name der Unterschrifts-Lösung.

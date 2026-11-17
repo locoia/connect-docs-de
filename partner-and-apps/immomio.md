@@ -151,29 +151,77 @@ Mieter in Immomio anlegen zum prüfen:
 #### Übersicht
 
 * [Allgemeine Informationen Aktivitäten und Schadensmeldungen](../use-cases/crm/tickets.md)
-* In Immomio erstellte **Anliegen** werden **immer** als **Aktivität** ins ERP übertragen.
-* In Immomio erstellte **Schäden** erzeugen **immer** eine **Aktivität** und **optional** zusätzlich eine **Schadensmeldung**, die mit der Aktivität verknüpft ist (Empfehlung: Aktivitätstyp **„Schadensmeldung Immomio“** im ERP anlegen).
-* **Rückmeldungen aus dem ERP:** Wird eine Aktivität im ERP bearbeitet (Statusänderung oder Kommentar), erscheint dies in **Immomio** nach spätestens 15 min.
-* **Anhänge** eines **Anliegens** aus Immomio können auch übertragen werden. Hierzu müssen Sie in Yuneo ein Archiv mit den Aktivitäten verknüpfen. Wir empfehlen ein Archiv "Immomio Anhänge" anzulegen.
-* **Synchronisation:**
-  * **Immomio → Yuneo/ERP:** Anliegen, Schäden und **Kommentare** nahezu **live**.
-  * **Yuneo/ERP → Immomio:** **Kommentare** und **Statusupdates** alle **15 Minuten**.
+* In Immomio erstellte **Anliegen** werden immer als Aktivität ins ERP übertragen.
+* In Immomio erstellte **Schäden** erzeugen immer eine Aktivität und optional zusätzlich eine Schadensmeldung, die mit der Aktivität verknüpft ist. Empfehlung: Aktivitätstyp „Schadensmeldung Immomio" im ERP anlegen.
+* **Anhänge** eines Anliegens aus Immomio können ebenfalls übertragen werden. Dafür müssen Sie in Yuneo ein Archiv mit den Aktivitäten verknüpfen. Wir empfehlen, ein Archiv „Immomio Anhänge" anzulegen.
+* **Rückmeldungen aus dem ERP:** Wird eine Aktivität im ERP bearbeitet (Statusänderung oder Kommentar), erscheint dies spätestens nach 15 Minuten in Immomio.
 
-#### Voraussetzungen und ERP Einstellungen
+**Synchronisation**
 
-1. **Archive für Anhänge an Aktivitäten**\
-   Anhänge zu Schäden und Anliegen werden im ERP in einem Archiv abgelegt und anschließend mit dem zugehörigen Mietvertrag oder Mitglied verknüpft. Hierzu müssen Sie im Bereich Archive:
-   1. jeweils ein Archiv erstellen: 'MV Mieterapp' und 'MI Mieterapp',
-   2. das Stammdatum mit 'Mietvertrag' und 'Mitglied' vorbelegen\
-      ![](<../.gitbook/assets/image (73).png>)
-   3. und den Hauptindex 'Mietvertrags-Nr.' sowie 'Mitglieds-Nr.' festlegen.\
-      ![](<../.gitbook/assets/image (74).png>)
-2. **Aktivitätstyp für Schadensmeldung anlegen**\
-   Erstellen Sie einen Aktiviätstyp mit dem Namen "Schadensmeldung Immomio" und geben Sie Ihrem Ansprechpartner bei Immomio Bescheid.
+| Richtung            | Inhalt                           | Zeitpunkt       |
+| ------------------- | -------------------------------- | --------------- |
+| Immomio → Yuneo/ERP | Anliegen, Schäden und Kommentare | nahezu live     |
+| Yuneo/ERP → Immomio | Kommentare und Statusupdates     | alle 15 Minuten |
 
-**Aktivierung**
+#### Voraussetzungen und ERP-Einstellungen
 
-Um die Integration zu testen wird Ihnen ein Aareon Mitarbeiter einen Link zur Verfügung stellen, über den Sie gemeinsam die Integration aktivieren werden. Sobald alles funktioniert wird die live Integration aus Ihrem Yuneo Account heraus aktiviert. So können Sie 24/7 Anpassungen vornehmen. Bitte aktivieren Sie die folgenden 5 Komponenten der Integration, indem sie den Beschreibungen folgen:
+**1. Archive für Anhänge an Aktivitäten**
+
+Anhänge zu Schäden und Anliegen werden im ERP in einem Archiv abgelegt und anschließend mit dem zugehörigen Mietvertrag oder Mitglied verknüpft. Gehen Sie dazu im Bereich **Archive** wie folgt vor:
+
+1. Erstellen Sie jeweils ein Archiv: „MV Mieterapp" und „MI Mieterapp".
+2. Belegen Sie das Stammdatum mit „Mietvertrag" bzw. „Mitglied" vor.\
+   ![](<../.gitbook/assets/image (77).png>)
+3. Legen Sie den Hauptindex „Mietvertrags-Nr." bzw. „Mitglieds-Nr." fest.\
+   ![](<../.gitbook/assets/image (76).png>)
+
+**2. Aktivitätstyp für Schadensmeldung anlegen**
+
+Erstellen Sie einen Aktivitätstyp mit dem Namen „Schadensmeldung Immomio" und geben Sie Ihrem Ansprechpartner bei Immomio Bescheid.
+
+#### Aktivitätstypen: Was wir von Ihnen benötigen
+
+Damit Ihre Mitglieder und Mieter Anliegen über Immomio einreichen können, übernehmen wir die Aktivitätstypen aus Wodis Yuneo. Dafür benötigen wir von Ihnen drei Angaben.
+
+{% hint style="warning" %}
+Bitte geben Sie alle Titel **exakt so** an, wie sie in Yuneo hinterlegt sind (gleiche Schreibweise). Am einfachsten kopieren Sie die Titel direkt aus Yuneo.
+{% endhint %}
+
+**1. Welche Aktivitätstypen sollen in Immomio erscheinen?**
+
+Bitte nennen Sie uns die Titel aller Aktivitätstypen, die in Immomio auswählbar sein sollen, getrennt nach Typ:
+
+* **Aufgabe:** zum Beispiel „Mietbescheinigung anfordern", „Bankverbindung ändern", „Beschwerde melden"
+* **Termin:** zum Beispiel „Terminanfrage"
+
+**2. Für wen soll welcher Aktivitätstyp sichtbar sein?**
+
+Bitte geben Sie für jeden Aktivitätstyp aus Punkt 1 an, welcher Personengruppe er angezeigt werden soll:
+
+* **Versorgte Mitglieder und Mieter:** Personen mit Wohnung
+* **Unversorgte Mitglieder:** Mitglieder ohne Wohnung
+
+Dabei gilt:
+
+* Ein Aktivitätstyp kann für beide Gruppen gelten.
+* Es können nur Aktivitätstypen genannt werden, die auch in Punkt 1 aufgeführt sind.
+* Jeder Aktivitätstyp sollte mindestens einer Gruppe zugeordnet sein.
+
+**3. Welche Merkmale sollen nicht abgefragt werden?**
+
+Standardmäßig werden alle Merkmale eines Aktivitätstyps nach Immomio übertragen. Beim Anlegen einer Aktivität werden sie beim Mitglied oder Mieter abgefragt.
+
+Bitte nennen Sie uns alle Merkmale, die **nicht** abgefragt werden sollen. Das sind typischerweise interne Felder, zum Beispiel:
+
+* Statusfelder wie „Aufgabenstatus"
+* „Quelle"
+* weitere Felder, die nur Ihre Sachbearbeitung pflegt
+
+#### Aktivierung
+
+Um die Integration zu testen, stellt Ihnen ein Aareon-Mitarbeiter einen Link zur Verfügung, über den Sie die Integration gemeinsam aktivieren. Sobald alles funktioniert, wird die Live-Integration aus Ihrem Yuneo-Account heraus aktiviert. So können Sie 24/7 Anpassungen vornehmen.
+
+Bitte aktivieren Sie die folgenden 5 Komponenten der Integration, indem Sie den Beschreibungen folgen:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
