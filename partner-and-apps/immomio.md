@@ -217,6 +217,14 @@ Bitte nennen Sie uns alle Merkmale, die **nicht** abgefragt werden sollen. Das s
 * „Quelle"
 * weitere Felder, die nur Ihre Sachbearbeitung pflegt
 
+Teilen Sie uns die gewünschten Aktivitätstypen am besten in dieser Form mit:
+
+| Aktivitätstyp           | Versorgte Mitglieder und Mieter | Unversorgte Mitglieder |
+| ----------------------- | ------------------------------- | ---------------------- |
+| Anforderung Mietvertrag | Ja                              | Nein                   |
+| ...                     | Ja                              | Ja                     |
+| ...                     | Nein                            | Ja                     |
+
 #### Aktivierung
 
 Um die Integration zu testen, stellt Ihnen ein Aareon-Mitarbeiter einen Link zur Verfügung, über den Sie die Integration gemeinsam aktivieren. Sobald alles funktioniert, wird die Live-Integration aus Ihrem Yuneo-Account heraus aktiviert. So können Sie 24/7 Anpassungen vornehmen.
